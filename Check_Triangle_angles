@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the angles of the triangle:");
+        int angle1=sc.nextInt();
+        int angle2=sc.nextInt();
+        int angle3=sc.nextInt();
+        int sum=angle1+angle2+angle3;
+        if(sum==180){
+            System.out.println("Triangle can be formed");
+        }
+        else{
+            System.out.println("Triangle cannot be formed");
+        }
+    }
+}
+//OUTPUT:
+/*
+Enter the angles of the triangle:
+45 45 45
+Triangle cannot be formed
+*/
