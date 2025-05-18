@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int x = sc.nextInt();
+        for (int i = 1; x * i <= 1000; i++) {
+            System.out.println(x * i);
+        }
+   }
+}
+*/Enter a number: 100
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+*/
