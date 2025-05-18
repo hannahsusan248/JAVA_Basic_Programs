@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int x=sc.nextInt();
+        System.out.println("Enter the number of times to be iterated:");
+        int y=sc.nextInt();
+        System.out.println("OUTPUT:");
+        for(int i=1;i<=y;i++)
+        {
+            System.out.println(x);
+        }
+    }
+}
+//Output
+/*Enter the number:
+4
+Enter the number of times to be iterated:
+5
+OUTPUT:
+4
+4
+4
+4
+4
+*/
